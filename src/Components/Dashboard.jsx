@@ -1,4 +1,3 @@
-
 import { Link } from 'react-router-dom';
 import Sidebar from './Sidebar';
 
@@ -34,9 +33,46 @@ function Dashboard() {
                 </div>
             </div>
 
-            
         
 
+
+    <div className="bg-white rounded-xl shadow-lg p-6 w-full max-w-xl">
+      <div className="flex items-center justify-between mb-4">
+        <div className="flex items-center space-x-2">
+          <span className="text-gray-500">
+            <svg width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2" className="inline"><rect x="3" y="4" width="14" height="13" rx="2" /><path d="M16 2v4M4 2v4" /><path d="M3 10h14" /></svg>
+          </span>
+          <span className="font-semibold">Monday, 14 October 2024</span>
+        </div>
+        <div className="flex items-center space-x-2">
+          <button className="text-gray-400 hover:text-blue-600">&lt;</button>
+          <button className="text-gray-400 hover:text-blue-600">&gt;</button>
+        </div>
+      </div>
+      {/* Schedule List */}
+      <div className="space-y-4">
+        <div className="flex items-center space-x-3">
+          <span className="text-xs font-medium text-red-500 border-r border-gray-200 pr-2 w-20">11:30 AM</span>
+          <span className="text-xs font-semibold text-red-500 bg-red-50 px-2 py-0.5 rounded mr-2">Live</span>
+          <span className="font-medium">Post</span>
+        </div>
+        <div className="flex items-center space-x-3">
+          <span className="text-xs font-medium text-blue-500 border-r border-gray-200 pr-2 w-20">11:30 AM</span>
+          <span className="text-xs font-semibold text-blue-500 bg-blue-50 px-2 py-0.5 rounded mr-2">Upcoming</span>
+          <span className="font-medium">My first Post</span>
+        </div>
+        <div className="flex items-center space-x-3">
+          <span className="text-xs font-medium text-blue-500 border-r border-gray-200 pr-2 w-20">11:30 AM</span>
+          <span className="text-xs font-semibold text-blue-500 bg-blue-50 px-2 py-0.5 rounded mr-2">Upcoming</span>
+          <span className="font-medium">Important Post</span>
+        </div>
+        <div className="flex items-center space-x-3">
+          <span className="text-xs font-medium text-blue-500 border-r border-gray-200 pr-2 w-20">11:30 AM</span>
+          <span className="text-xs font-semibold text-blue-500 bg-blue-50 px-2 py-0.5 rounded mr-2">Upcoming</span>
+          <span className="font-medium">Post 1</span>
+        </div>
+      </div>
+    </div>
 
             
         </div>
